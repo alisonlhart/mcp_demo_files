@@ -13,9 +13,9 @@
       ansible.mcp.mcp_run_tools:
         tool_name: create_issue
         tool_args:
-          owner: ganeshrn
-          repo: mcp-demo
-          title: "Automated Issue-1"
+          owner: alisonlhart
+          repo: mcp_demo_files
+          title: "The Most Amazing Feature Request of All Time"
           body: "Created by Ansible Playbook"
       register: new_issue
 
