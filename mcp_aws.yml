@@ -1,6 +1,6 @@
 ---
 - name: AWS IAM MCP Server Integration Demo
-  hosts: aws_iam_server
+  hosts: aws_server
   gather_facts: false
   tasks:
     # Discover available AWS IAM tools
